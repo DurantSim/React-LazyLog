@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from "react";
 import { LazyLog } from "react-lazylog";
 import axios from "axios";
 import usePrevious from "./usePrevious";
-import { text1, text2 } from "./Text";
 
 const Hello = () => {
   const baseUrl = "https://jsonplaceholder.typicode.com/users";
